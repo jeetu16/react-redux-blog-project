@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  background-color: #333;
+  color:white;
+}
+
+.postList {
+  max-width: 800px;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+.postContainer h2 {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+.post{
+  max-width: 450px;
+  padding: 1rem;
+  border: 1px solid white;
+  border-radius: .5rem;
+  margin: .5rem auto;
+  position: relative;
+}
+
+.post p {
+  margin: .5rem 0;
+}
+
+.newBlog {
+  max-width: 450px;
+  margin: auto;
+}
+
+
+.newBlog h2 {
+  text-align: center;
+}
+
+form {
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+form input, form select {
+  padding: .5rem;
+  font-size: 1rem;
+  border-radius: .15rem;
+  outline: none;
+  border: none;
+}
+
+form label{
+  font-size: 1.35rem;
+}
+
+form button {
+  padding: .5rem;
+  border-radius: .5rem;
+  border: none;
+  color: black;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+
+}
+
+.reactionButtons {
+  background-color: inherit;
+  border: none;
+  font-size: 1.25rem;
+  color: white;
+  padding:.5rem;
+  margin: .5rem;
+}
+
+
+.deleteBtn {
+  color: red;
+  cursor: pointer;
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  font-size: 2rem;
+}
+
+.deleteBtn:hover {
+  opacity: .7;
+}
